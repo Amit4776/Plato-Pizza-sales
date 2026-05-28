@@ -29,6 +29,20 @@ The project transforms raw sales data into interactive visual insights using Exc
 - Revenue details
 - Product information
 
+ ## Dataset Cleaning and Preparation
+  Before building the dashboard, the dataset was cleaned and prepared to ensure accuracy and relevance for analysis:
+
+  - Removed unnecessary and irrelevant columns to focus on key business metrics
+  - Used Power Query for data transformation
+  - Created conditional/custom columns in Orders table (Power Query)
+  - Standardized date and time formats for consistent analysis
+  - Created a Date Table to support time-based calculations
+  - Generated derived columns such as:
+ - Day Name (to analyze weekday vs weekend sales patterns)
+ - Month (for monthly trend analysis)
+ - Prepared the dataset for Pivot Tables and dashboard creation
+ - Removed unnecessary/irrelevant columns
+
 ## Business Questions Addressed
   - How many orders are placed each day?
   - What are the peak ordering hours?
@@ -40,6 +54,7 @@ The project transforms raw sales data into interactive visual insights using Exc
 
  ## Tools & Skills Used
   - Microsoft Excel
+  - Power Query
   - Pivot Tables
   -  Pivot Charts
   -  KPI Cards
@@ -66,7 +81,7 @@ The project transforms raw sales data into interactive visual insights using Exc
  ## Trend Analysis
   -Monthly sales trends
   - Order session analysis
-  - Daily & hourly order heatmap(By using conditional formatiting in Pivot table)
+  -  Applied conditional formatting in Pivot Tables to create heatmaps for order patterns
 
  ## Key Insights
   - Large pizzas generated the highest sales volume.
@@ -74,6 +89,20 @@ The project transforms raw sales data into interactive visual insights using Exc
   - Classic category contributed the largest share of sales.
   - Thai Chicken Pizza was the top-selling pizza by revenue.
   - Sales peaked during mid-year months.
+
+## How to Use
+ - Download the Excel dashboard file
+ - Open using Microsoft Excel
+ - Enable editing if required
+
+## Project Outcome
+This project demonstrates practical skills in:
+
+-Excel Dashboard Development
+- Business Intelligence Reporting
+- Sales Data Analysis
+- Data Visualization
+- Insight Generation
     
 
  

@@ -43,6 +43,7 @@ The project transforms raw sales data into interactive visual insights using Exc
  - Prepared the dataset for Pivot Tables and dashboard creation
  - Removed unnecessary/irrelevant columns
 
+
 ## Business Questions Addressed
   - How many orders are placed each day?
   - What are the peak ordering hours?
@@ -55,6 +56,8 @@ The project transforms raw sales data into interactive visual insights using Exc
  ## Tools & Skills Used
   - Microsoft Excel
   - Power Query
+  - Excel Data model
+  - Dax
   - Pivot Tables
   -  Pivot Charts
   -  KPI Cards
